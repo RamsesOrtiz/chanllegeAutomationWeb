@@ -1,23 +1,24 @@
-#Test Automation Web Challenge
-###Escenarios en el Feature:
+# Test Automation Web Challenge
+
+## Escenarios en el Feature:
 - Ir a la web: https://www.demoblaze.com/index.html
 - Dar de alta un usuario.
 - Login y logout con el usuario dado de alta.
 - Agregar una laptop al carrito.
 - Comprobar que se agregó al carrito.
 
-###Datos Técnicos:
+## Datos Técnicos:
 - Java 11
 - Selenium
 - TestNg
 - Cucumber
 - Allure (Report)
 
-###Ejecución por Terminal:
+## Ejecución por Terminal:
 - Test: mvn clean test / mvn test
 - Reporte: mvn allure:serve (Opcional)
 
-###Estructura:
+## Estructura:
 1. Main: 
 
     1.1 com.challenge.config 
@@ -71,7 +72,7 @@
     2.2. RunCucumberTest.java
     Definición del ejecutable (Cucumber + TestNg)
 
-###Escenarios
+## Escenarios
 * src/test/resources/scenarios.feature contiene los Escenarios del Feature en Gherkin.
 Estan ordenados debido a la dependencia de los pasos previos para su ejecución,
 para evitar empezar un nuevo proceso en los casos que se requiere un usuario previamente
@@ -79,18 +80,18 @@ registrado. Para este test, cada ejecución propone un usuario/password nuevo. A
 dependencia, los test se ejecutan por separado en cada feature, preservando en memoria
 el username y password utilizados durante el registro del usuario.
 
-###Reportes:
+## Reportes:
 Se pueden obtener reportes de dos maneras:
 1. Allure: mvn allure:serve una vez terminada la ejecución del test. Este reporte
 muestra cada escenario ejecutado e incluye los screenshots de cada proceso.
 2. Cucumber Report: reporte por defecto, es posible encontrarlo en la carpeta Target del proyecto.
 No incluye screenshots.
 
-###Screenshots:
+## Screenshots:
 Están configurados por defecto para incluirse en el reporte de Allure y en la carpeta
 Screenshots del proyecto, a modo de backup.
 
-###Logs:
+## Logs:
 Están configurados para registrar los procesos de la ejecución. Se registran en dos archivos,
 automation.log y automation.error según el status de los que se ha registrado. Se almacenan por día
 en un archivo comprimido a fin de almacenar los registros.
