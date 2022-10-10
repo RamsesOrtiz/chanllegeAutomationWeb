@@ -1,0 +1,6 @@
+com\challenge\test\defs\AddLaptopToCartTest.class
+com\challenge\test\defs\LoginUserTest.class
+com\challenge\test\defs\CheckCartTest.class
+com\challenge\test\defs\SignUpUserTest.class
+com\challenge\test\defs\LogoutUserTest.class
+com\challenge\test\RunCucumberTest.class

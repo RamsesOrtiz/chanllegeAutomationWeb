@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginUser">
+    <test verbose="2" preserve-order="true" name="LoginUser">
+        <classes>
+            <class name="com.challenge.test.defs.LoginUserTest">
+                <methods>
+                    <include name="a_user_sign_up_in_the_webpage"/>
+                    <include name="select_login_option"/>
+                    <include name="write_the_username_and_password_fields"/>
+                    <include name="the_system_login_successfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

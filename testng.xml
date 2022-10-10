@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Web Challenge on demoblaze.com"  >
+    <test name="Automation Web Challenge on demoblaze.com">
+        <classes>
+            <class name="com.challenge.test.RunCucumberTest"/>
+        </classes>
+    </test>
+    <suite-files>
+        <suite-file path="testng-suites/SignUpUser.xml"/>
+        <suite-file path="./testng-suites/LoginUser.xml"/>
+        <suite-file path="./testng-suites/LogoutUser.xml"/>
+        <suite-file path="./testng-suites/AddLaptopToCart.xml"/>
+        <suite-file path="./testng-suites/CheckCart.xml"/>
+    </suite-files>
+</suite>

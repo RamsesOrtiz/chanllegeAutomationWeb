@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AddLaptopToCart">
+    <test verbose="2" preserve-order="true" name="AddLaptopToCart">
+        <classes>
+            <class name="com.challenge.test.defs.AddLaptopToCartTest">
+                <methods>
+                    <include name="a_user_visits_the_homepage"/>
+                    <include name="goes_to_laptops_categories"/>
+                    <include name="select_some_laptop"/>
+                    <include name="select_add_to_cart_option"/>
+                    <include name="the_system_confirm_that_the_product_was_added"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

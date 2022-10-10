@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CheckCart">
+    <test verbose="2" preserve-order="true" name="CheckCart">
+        <classes>
+            <class name="com.challenge.test.defs.CheckCartTest">
+                <methods>
+                    <include name="a_user_who_added_a_laptop_to_cart"/>
+                    <include name="goes_to_cart_option"/>
+                    <include name="the_product_added_is_present_in_the_cart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

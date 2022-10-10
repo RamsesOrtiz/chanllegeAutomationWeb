@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LogoutUser">
+    <test verbose="2" preserve-order="true" name="LogoutUser">
+        <classes>
+            <class name="com.challenge.test.defs.LogoutUserTest">
+                <methods>
+                    <include name="a_user_logged_in_the_webpage"/>
+                    <include name="select_logout_option"/>
+                    <include name="the_system_logout_successfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

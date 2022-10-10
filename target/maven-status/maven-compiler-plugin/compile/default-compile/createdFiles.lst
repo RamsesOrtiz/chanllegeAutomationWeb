@@ -1,0 +1,8 @@
+com\challenge\process\SignUpProcess.class
+com\challenge\config\LoggerPage.class
+com\challenge\process\AddLaptopProcess.class
+com\challenge\process\LogoutProcess.class
+com\challenge\process\CheckCartProcess.class
+com\challenge\config\ConfigPage.class
+com\challenge\process\LoginProcess.class
+com\challenge\config\PropertiesPage.class
